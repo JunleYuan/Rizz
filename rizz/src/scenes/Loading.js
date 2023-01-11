@@ -49,8 +49,8 @@ class Loading extends Phaser.Scene {
     }
 
     loadIMG(){
-        this.load.json('day1', './assets/json/day1.json');
-        
+        //this.load.json('day1', './assets/json/day1.json');
+        this.load.json('grindIcon', './assets/icon/discord.png');
     }
 
     loadSound(){
